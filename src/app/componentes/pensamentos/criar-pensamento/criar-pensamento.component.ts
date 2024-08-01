@@ -21,4 +21,12 @@ export class CriarPensamentoComponent {
 
   ngOnInit(): void {}
 
+  criarPensamento() {
+    console.log('Novo pensamento criado!')
+  }
+
+  cancelar() {
+    console.log('Cancelado!')
+  }
+
 }
