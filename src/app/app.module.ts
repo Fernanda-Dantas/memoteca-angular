@@ -8,6 +8,8 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
 @NgModule({
   declarations: [
     AppComponent,
+    CabecalhoComponent,
+    RodapeComponent
   ],
   imports: [],
   providers: [],
