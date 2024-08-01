@@ -1,3 +1,4 @@
+import { ListarPensmentoComponent } from './componentes/pensamentos/listar-pensmento/listar-pensmento.component';
 import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -13,7 +14,10 @@ const routes: Routes = [
     path: 'criarPensamento',
     component: CriarPensamentoComponent
   },
-
+  {
+    path: 'listarPensamento',
+    component: ListarPensmentoComponent
+  },
 
 ];
 

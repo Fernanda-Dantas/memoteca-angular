@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { ListarPensmentoComponent } from './componentes/pensamentos/listar-pensmento/listar-pensmento.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -19,7 +20,8 @@ import { ListarPensmentoComponent } from './componentes/pensamentos/listar-pensm
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],
