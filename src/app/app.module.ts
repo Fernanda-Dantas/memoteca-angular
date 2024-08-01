@@ -5,6 +5,7 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { FormsModule } from '@angular/forms';
 import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
 import { BrowserModule } from '@angular/platform-browser';
+import { ListarPensmentoComponent } from './componentes/pensamentos/listar-pensmento/listar-pensmento.component';
 
 
 
@@ -13,7 +14,8 @@ import { BrowserModule } from '@angular/platform-browser';
     AppComponent,
     CabecalhoComponent,
     RodapeComponent,
-    CriarPensamentoComponent
+    CriarPensamentoComponent,
+    ListarPensmentoComponent
   ],
   imports: [
     BrowserModule,
