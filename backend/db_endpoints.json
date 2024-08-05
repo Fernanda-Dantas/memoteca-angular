@@ -1,0 +1,22 @@
+{
+    "pensamentos": [
+        {
+            "id": 1,
+            "conteudo": "TESTE",
+            "autoria": "FerDev",
+            "modelo": "modelo1"
+        },
+        {
+            "id": 2,
+            "conteudo": "TESTE2",
+            "autoria": "FerDev",
+            "modelo": "modelo2"
+        },
+        {
+            "id": 3,
+            "conteudo": "TESTE3",
+            "autoria": "FerDev",
+            "modelo": "modelo3"
+        }
+    ]
+}
