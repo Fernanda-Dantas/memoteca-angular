@@ -5,8 +5,9 @@ import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { FormsModule } from '@angular/forms';
 import { CriarPensamentoComponent } from './componentes/pensamentos/criar-pensamento/criar-pensamento.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { ListarPensmentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
+import { ListarPensamentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -16,12 +17,13 @@ import { AppRoutingModule } from './app-routing.module';
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
-    ListarPensmentoComponent
+    ListarPensamentoComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
