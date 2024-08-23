@@ -20,10 +20,6 @@ export class PensamentoService {
 
         let params = new HttpParams().set("_page", pagina).set("_limit", itensporPagina)
 
-        // pegou do json server
-        // return this.http.get<Pensamento[]>(
-        //    `${this.API}?_page=${pagina}&_limit=${itensporPagina}` 
-        // )
 
         return this.http.get<Pensamento[]>(this.API, { params })
     }

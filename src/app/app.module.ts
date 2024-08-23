@@ -8,6 +8,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ListarPensamentoComponent } from './componentes/pensamentos/listar-pensamento/listar-pensamento.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
+import { BotaoCarregarMaisComponent } from './componentes/pensamentos/listar-pensamento/botao-carregar-mais/botao-carregar-mais.component';
 
 
 
@@ -17,15 +18,16 @@ import { HttpClientModule } from '@angular/common/http';
     CabecalhoComponent,
     RodapeComponent,
     CriarPensamentoComponent,
-    ListarPensamentoComponent
+    ListarPensamentoComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
-  ],
+    ReactiveFormsModule,
+    BotaoCarregarMaisComponent
+],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
