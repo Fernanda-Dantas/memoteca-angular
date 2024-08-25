@@ -17,7 +17,8 @@ export class ExcluirPensamentoComponent {
     "id": 1,
     "conteudo": "",
     "autoria": "",
-    "modelo": ""
+    "modelo": "",
+    favorito: false
 }
 
   constructor(

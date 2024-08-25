@@ -4,19 +4,22 @@
             "id": 1,
             "conteudo": "Desde ontem a noite o gerenciador de dependências do frontend facilitou a resolução de conflito do polimorfismo aplicado nas classes.",
             "autoria": "FerDev",
-            "modelo": "modelo1"
+            "modelo": "modelo1",
+            "favorito": false
         },
         {
             "id": 2,
             "conteudo": "Nesse pull request, um erro não identificado causou a race condition do nosso servidor de DNS.",
             "autoria": "FerDev",
-            "modelo": "modelo2"
+            "modelo": "modelo2",
+            "favorito": false
         },
         {
             "id": 3,
             "conteudo": "A equipe de suporte precisa saber que a compilação final do programa deletou todas as entradas dos parametros passados em funções privadas.",
             "autoria": "FerDev",
-            "modelo": "modelo3"
+            "modelo": "modelo3",
+            "favorito": false
         }
     ]
 }

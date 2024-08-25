@@ -12,7 +12,8 @@ export class PensamentoComponent implements OnInit {
     id: 0,
     conteudo: 'I love Angular',
     autoria: 'Nay',
-    modelo: 'modelo0'
+    modelo: 'modelo0',
+    favorito: false
   }
 
   constructor() { }
