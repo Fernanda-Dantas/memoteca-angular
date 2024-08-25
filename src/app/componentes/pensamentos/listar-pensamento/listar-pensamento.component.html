@@ -6,7 +6,8 @@
         class="filtro"
         placeholder="O que você procura?"
         autofocus
-        [(ngModel)]="filtro">
+        [(ngModel)]="filtro"
+        (keyup)="pesquisarPensamento()">
       </div>
       <h2 class="ff-inter">Meu Mural</h2>
       <h2 class="ff-inter">Filtro: {{filtro}}</h2>
